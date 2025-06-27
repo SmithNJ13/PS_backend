@@ -18,7 +18,7 @@ require("./schedulers/cronjob.js")
 // })
 
 app.use(cors({
-    origin: "*",
+    origin: "https://predictionsiteplp.netlify.app",
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true
 }))
