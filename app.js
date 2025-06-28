@@ -18,7 +18,7 @@ require("./schedulers/cronjob.js")
 // })
 
 app.use(cors({
-    origin: "https://ps-frontend-tfdz.onrender.com/",
+    origin: "https://ps-frontend-tfdz.onrender.com",
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true
 }))
